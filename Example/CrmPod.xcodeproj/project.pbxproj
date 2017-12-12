@@ -24,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F5B74DF01FE02342008391E7 /* AGService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B74DEF1FE02342008391E7 /* AGService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +67,6 @@
 		E24B526CA4EF50E542FDFCC1 /* Pods-CrmPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrmPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrmPod_Example/Pods-CrmPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5F041EB970737E7CD66279A /* Pods-CrmPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrmPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrmPod_Tests/Pods-CrmPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F47A2D3EE8323D8EB056F3BE /* Pods-CrmPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrmPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrmPod_Example/Pods-CrmPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F5B74DEE1FE02342008391E7 /* AGService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGService.h; sourceTree = "<group>"; };
-		F5B74DEF1FE02342008391E7 /* AGService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +109,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				F5B74DEE1FE02342008391E7 /* AGService.h */,
-				F5B74DEF1FE02342008391E7 /* AGService.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for CrmPod */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -414,7 +409,6 @@
 				6003F59E195388D20070C39A /* AGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				F5B74DF01FE02342008391E7 /* AGService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

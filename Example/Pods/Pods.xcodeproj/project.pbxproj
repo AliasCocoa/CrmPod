@@ -17,6 +17,8 @@
 		B192342116E0EDD591D202DEA32BB501 /* Pods-CrmPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4ECAE3DBB26D740C35701FC55C5F7AF /* Pods-CrmPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B470594B0DF3BBD843832BED6AE95C4B /* CrmPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C025D251A9F4D128787D148EED477B6E /* CrmPod-dummy.m */; };
 		F1CB02F27F5594D1B58281D0FCE3784B /* CrmPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4169B9895948390C26470CBA3D6BC0E7 /* CrmPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B74DF31FE02B36008391E7 /* AGService.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B74DF11FE02B36008391E7 /* AGService.h */; };
+		F5B74DF41FE02B36008391E7 /* AGService.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B74DF21FE02B36008391E7 /* AGService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,37 +32,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08E872F4B16ECBBE5F3142348C1D424A /* CrmPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CrmPod.modulemap; sourceTree = "<group>"; };
+		08E872F4B16ECBBE5F3142348C1D424A /* CrmPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CrmPod.modulemap; sourceTree = "<group>"; };
 		0E277D03BC43D1919196ABC7B872A31D /* Pods-CrmPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrmPod_Example-resources.sh"; sourceTree = "<group>"; };
 		22A5DFE037D4818779220F51D7A5D2DE /* Pods-CrmPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrmPod_Tests-resources.sh"; sourceTree = "<group>"; };
-		24B6D2C3F0273CCEC3E0969CA023B771 /* Pods_CrmPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrmPod_Tests.framework; path = "Pods-CrmPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B6D2C3F0273CCEC3E0969CA023B771 /* Pods_CrmPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrmPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28491663959FE6161C8077E585DACE7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A5E730875D4D4637D84CD468429489C /* Pods-CrmPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrmPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3F45C65BCE9A05558BFBA1D4B6ED690A /* Pods-CrmPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrmPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4169B9895948390C26470CBA3D6BC0E7 /* CrmPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrmPod-umbrella.h"; sourceTree = "<group>"; };
-		43B4AEB84F5A09121C5C3E6415AADD3F /* CrmPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CrmPod.framework; path = CrmPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B4AEB84F5A09121C5C3E6415AADD3F /* CrmPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrmPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		476B75DE3111104EADBBC22AF34B5193 /* CrmPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CrmPod.xcconfig; sourceTree = "<group>"; };
 		51F4A9CD857B367328928555B6E404E0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CrmPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6AB0FCB3DAD68C2B45855ADE1245AFC4 /* Pods-CrmPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrmPod_Tests.modulemap"; sourceTree = "<group>"; };
+		6AB0FCB3DAD68C2B45855ADE1245AFC4 /* Pods-CrmPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CrmPod_Tests.modulemap"; sourceTree = "<group>"; };
 		7DEF5802CC2D5EBB1245E3886A06FA37 /* Pods-CrmPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrmPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8320A912E444D7748131A0BF606D9C93 /* Pods-CrmPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrmPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8863AA2EEFB1CDF6D3CF179BB1B401AA /* Pods-CrmPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrmPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90756FE1D7FCBAFA06DE120EA0BE2509 /* Pods-CrmPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrmPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A08877B2F3A4BBBA999B4D197F9F9AA /* Pods-CrmPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrmPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A765F1D3DC36D796CE4A4E474A1E8885 /* Pods-CrmPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrmPod_Example-dummy.m"; sourceTree = "<group>"; };
-		A79ABE9A4C363A19BC5D7343C3984A74 /* Pods_CrmPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrmPod_Example.framework; path = "Pods-CrmPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79ABE9A4C363A19BC5D7343C3984A74 /* Pods_CrmPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrmPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80684C088C33181F713A55693C98314 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB549CEB0EC14BE31A3F634B0AD71685 /* Pods-CrmPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrmPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		B4ECAE3DBB26D740C35701FC55C5F7AF /* Pods-CrmPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrmPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B68D0886FF130E071986BD3528894F20 /* Pods-CrmPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrmPod_Example.modulemap"; sourceTree = "<group>"; };
+		B68D0886FF130E071986BD3528894F20 /* Pods-CrmPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CrmPod_Example.modulemap"; sourceTree = "<group>"; };
 		BB61FD2C817272BB3BC080DB1ADF2439 /* Pods-CrmPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrmPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		C025D251A9F4D128787D148EED477B6E /* CrmPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CrmPod-dummy.m"; sourceTree = "<group>"; };
 		DA4E162FBD9C56A9C3EE3B79D7EB506C /* Pods-CrmPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrmPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E0B59CA1478CA5CB7712D0F61DCF83A5 /* CrmPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrmPod-prefix.pch"; sourceTree = "<group>"; };
 		E1A66C69F258849EC2289D9CDED9B993 /* Pods-CrmPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrmPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4667ED5F640558E289CAE485D7A4B4C /* Pods-CrmPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrmPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B74DF11FE02B36008391E7 /* AGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGService.h; path = CrmPod/Classes/AGService.h; sourceTree = "<group>"; };
+		F5B74DF21FE02B36008391E7 /* AGService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGService.m; path = CrmPod/Classes/AGService.m; sourceTree = "<group>"; };
 		F94D406C472B8D4670E9CEF581CC8EA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 		2396679C0C64F63C488755BB3A42E8E1 /* CrmPod */ = {
 			isa = PBXGroup;
 			children = (
+				F5B74DF11FE02B36008391E7 /* AGService.h */,
+				F5B74DF21FE02B36008391E7 /* AGService.m */,
 				51F4A9CD857B367328928555B6E404E0 /* ReplaceMe.m */,
 				1BEB12B185837F3CBFCD222F5005DEDE /* Support Files */,
 			);
@@ -221,6 +227,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B74DF31FE02B36008391E7 /* AGService.h in Headers */,
 				F1CB02F27F5594D1B58281D0FCE3784B /* CrmPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B470594B0DF3BBD843832BED6AE95C4B /* CrmPod-dummy.m in Sources */,
+				F5B74DF41FE02B36008391E7 /* AGService.m in Sources */,
 				9387B973D00E85A58AA2A53571C8A9B1 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
