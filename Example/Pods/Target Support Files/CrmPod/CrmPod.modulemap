@@ -1,0 +1,6 @@
+framework module CrmPod {
+  umbrella header "CrmPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
