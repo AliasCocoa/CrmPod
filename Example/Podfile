@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CrmPod_Example' do
+  pod 'CrmPod', :path => '../'
+
+  target 'CrmPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
